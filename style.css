@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./img/img-background.svg);
+}
+
+.img-hero {
+    border-radius: 20px 20px 0 0;
+}
+
+.icon-music {
+    padding-right: 15px;
+}
+
+main {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: max-content;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    padding: 28px;
+}
+
+p.text {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+p.value {
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+div#values {
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    height: max-content;
+    background-color: hsla(225, 100%, 94%, 0.384);
+    border-radius: 10px;
+}
+
+a.change {
+    padding-left: 100px;
+    color: hsl(245, 75%, 52%);
+}
+
+input {
+    height: 45px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 1px 3px 2px rgba(0, 0, 255, 0.575);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+a.cancel {
+    text-decoration: none;
+    color: hsl(228, 4%, 45%);
+
+}
